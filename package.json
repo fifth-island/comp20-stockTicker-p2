@@ -28,6 +28,9 @@
     "webidl-conversions": "^7.0.0",
     "whatwg-url": "^11.0.0"
   },
+  "engines": {
+    "node": "18.12.1"
+  },
   "scripts": {
     "start": "node processForm.js"
   },
