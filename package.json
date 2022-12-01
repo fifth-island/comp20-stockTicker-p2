@@ -3,8 +3,32 @@
   "version": "1.0.0",
   "description": "",
   "main": "processForm.js",
+  "dependencies": {
+    "bson": "^4.7.0",
+    "base64-js": "^1.5.1",
+    "bowser": "^2.11.0",
+    "ip": "^2.0.0",
+    "fast-xml-parser": "^4.0.11",
+    "ieee754": "^1.2.1",
+    "memory-pager": "^1.5.0",
+    "mongodb": "^4.12.1",
+    "punycode": "^2.1.1",
+    "buffer": "^5.7.1",
+    "saslprep": "^1.0.3",
+    "smart-buffer": "^4.2.0",
+    "sparse-bitfield": "^3.0.3",
+    "socks": "^2.7.1",
+    "tr46": "^3.0.0",
+    "mongodb-connection-string-url": "^2.6.0",
+    "uuid": "^8.3.2",
+    "webidl-conversions": "^7.0.0",
+    "strnum": "^1.0.5",
+    "tslib": "^2.4.1",
+    "whatwg-url": "^11.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "node processForm.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -15,8 +39,5 @@
   "bugs": {
     "url": "https://github.com/jweng1011/comp20-stockTicker-p2/issues"
   },
-  "homepage": "https://github.com/jweng1011/comp20-stockTicker-p2#readme",
-  "dependencies": {
-    "mongodb": "^4.12.1"
-  }
+  "homepage": "https://github.com/jweng1011/comp20-stockTicker-p2#readme"
 }
