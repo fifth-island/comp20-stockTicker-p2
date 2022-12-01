@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="form.css"/>
+    </head>
+    <body>
+        <div>
+            <form method="post" action="/process">
+                <div>
+                    <label for="query">Enter a stock ticker symbol or a company name:</label>
+                    <input type="text" name="query">
+                </div>
+                <div>
+                    <div>
+                        <input type="radio" name="ticker" value="ticker">
+                        <label for="ticker">Stock ticker symbol</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="companyName" value="companyName">
+                        <label for="companyName">Company name</label>
+                    </div>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>
