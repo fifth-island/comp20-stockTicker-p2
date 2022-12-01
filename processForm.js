@@ -37,6 +37,10 @@ app.post('/process', (req, res) => {
 
 function parseData(dataArr) {
     var pdata = "";
+    if (dataArr.length === 0) {
+        pdata = "<p>No documents found!</p>";
+        return pdata;
+    } 
     dataArr.forEach((obj) => {
         console.log(obj);
         var company = obj.Company;
