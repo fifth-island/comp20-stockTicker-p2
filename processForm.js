@@ -8,6 +8,7 @@ const mongodb = require('mongodb');
 const uri = "mongodb+srv://jenniferw:Wsnx1c9J0sKO6sO3@equities.smk0n2x.mongodb.net/?retryWrites=true&w=majority";
 
 var app = express();
+const port = process.env.PORT || 4000;
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(path.join(__dirname, 'public')))
@@ -49,4 +50,4 @@ function parseData(dataArr) {
     return pdata;
 }
 
-app.listen(3000);
+app.listen(port);
