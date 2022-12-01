@@ -6,7 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jweng1011/comp20-stockTicker-p2.git"
+  },
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "bugs": {
+    "url": "https://github.com/jweng1011/comp20-stockTicker-p2/issues"
+  },
+  "homepage": "https://github.com/jweng1011/comp20-stockTicker-p2#readme",
+  "dependencies": {
+    "mongodb": "^4.12.1"
+  }
 }
